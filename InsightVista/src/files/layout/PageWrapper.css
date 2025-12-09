@@ -1,0 +1,6 @@
+.page-wrapper {
+  margin-left: 60px; 
+  padding: 20px;
+  min-height: 100vh;
+  transition: margin-left 0.25s ease; 
+}

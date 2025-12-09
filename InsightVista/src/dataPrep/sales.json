@@ -1,0 +1,32 @@
+[
+  {
+    "OrderID": "A1001",
+    "Product": "Laptop Pro X",
+    "Category": "Electronics",
+    "Customer": "Alice Smith",
+    "Quantity": 1,
+    "Price": 1200.00,
+    "Region": "North America",
+    "OrderDate": "2025-01-15"
+  },
+  {
+    "OrderID": "A1002",
+    "Product": "Office Chair Z",
+    "Category": "Furniture",
+    "Customer": "Bob Johnson",
+    "Quantity": 2,
+    "Price": 150.00,
+    "Region": "Europe",
+    "OrderDate": "2025-01-16"
+  },
+  {
+    "OrderID": "A1003",
+    "Product": "T-Shirt Cotton",
+    "Category": "Apparel",
+    "Customer": "Charlie Brown",
+    "Quantity": 5,
+    "Price": 25.00,
+    "Region": "Asia",
+    "OrderDate": "2025-01-17"
+  }
+]

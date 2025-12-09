@@ -1,0 +1,50 @@
+/* src/files/cards/Kpi.css */
+
+.kpi-card {
+    flex: 1; /* Makes all KPI cards share space equally in the flex container */
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-left: 5px solid #5a67d8; /* Highlight bar */
+    transition: transform 0.2s;
+}
+
+.kpi-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.kpi-icon-container {
+    padding: 10px;
+    background: #e0e7ff; /* Light indigo background */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.kpi-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.kpi-title {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #64748b; /* Slate grey for subtle text */
+    font-weight: 500;
+}
+
+.kpi-value {
+    margin: 4px 0 0 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1e293b; /* Dark text for emphasis */
+}
